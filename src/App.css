@@ -1,0 +1,150 @@
+.app-content {
+  margin-top: 5%;
+}
+
+.manchester-is-blue {
+  background-color: #041838;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manchester-is-blue h1 {
+  color: #6CABDD;
+  font-weight: 900 !important;
+}
+
+.titles-section {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as desired */
+  z-index: 1;
+}
+
+.titles-section img {
+  width: 100%;
+}
+
+.titles-section-content {
+  position: absolute;
+  color: whitesmoke;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.titles-section-content h3 {
+  color: lightblue;
+  font-weight: 900 !important;
+  font-size: 55px !important;
+}
+
+.titles-section-content-text {
+  width: 25%;
+  /* border: 1px solid red; */
+}
+
+.pep-quote {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  padding: 50px 0;
+  background-color: lightblue;
+}
+
+.navy-text {
+  font-weight: bold !important;
+  font-size: 40px !important;
+  color: #041838;
+}
+
+.small {
+  font-size: 25px !important;
+  font-weight: normal !important;
+}
+
+.pep-quote img {
+  width: 20%;
+}
+
+.pep-quote-content {
+  width: 45%;
+  /* border: 1px solid magenta; */
+  margin-right: 40px;
+}
+
+.mySwiper {
+  /* border: 1px solid red; */
+  margin-left: 40px !important;
+}
+
+.swiper {
+  width: 40%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+.upcoming-match {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 0;
+  background-color: #041838;
+  color: white;
+}
+
+.upcoming-match-teams {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.upcoming-match-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.app-btn {
+  background-color: #6CABDD !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
